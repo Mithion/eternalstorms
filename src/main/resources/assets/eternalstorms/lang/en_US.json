@@ -1,0 +1,6 @@
+{
+	"death.attack.eternalstorms_cold": "%s froze to death.",
+	"death.attack.eternalstorms_cold.player": "%s froze to death at %s's hand.",
+	"hud.temperature": "Temperature: %.2fC",
+	"hud.wet": "Wet: %s"
+}

@@ -1,0 +1,31 @@
+modLoader="javafml" 
+loaderVersion="[33,)" 
+license="All rights reserved"
+issueTrackerURL="https://example.com" 
+
+[[mods]] 
+modId="eternalstorms" 
+version="${file.jarVersion}"  
+displayName="Eternal Storms" 
+updateJSONURL="https://example.com" 
+displayURL="https://example.com" 
+logoFile="logo.png" 
+credits="The weather!" 
+authors="Mithion" 
+description='''
+This mod aims to make vanilla Minecraft more dangerous by making storms much more frequent and dangerous!
+'''
+
+[[dependencies.eternalstorms]]     
+    modId="forge"     
+    mandatory=true    
+    versionRange="[33,)"     
+    ordering="NONE"    
+    side="BOTH"
+
+[[dependencies.eternalstorms]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.2]"
+    ordering="NONE"
+    side="BOTH"
